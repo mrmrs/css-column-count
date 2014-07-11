@@ -37,7 +37,7 @@ or download the css on github and include in your project.
 .cc-16 {     column-count: 16; }
 .cc-auto {   column-count: auto; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .cc-1-ns {      column-count: 1; }
   .cc-2-ns {      column-count: 2; }
   .cc-3-ns {      column-count: 3; }
@@ -57,7 +57,7 @@ or download the css on github and include in your project.
   .cc-auto-ns {   column-count: auto; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .cc-1-m {      column-count: 1; }
   .cc-2-m {      column-count: 2; }
   .cc-3-m {      column-count: 3; }
@@ -77,7 +77,7 @@ or download the css on github and include in your project.
   .cc-auto-m {   column-count: auto; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .cc-1-l {      column-count: 1; }
   .cc-2-l {      column-count: 2; }
   .cc-3-l {      column-count: 3; }
