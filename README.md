@@ -9,13 +9,18 @@
 *  -l  = large
 
 ## Install
+Grab the css partial from github and include it in your project or alternatively
+you can install it via npm:
 ```
 npm install --save-dev css-column-count
 ```
-or download the css on github and include in your project.
+View on [npm](https://www.npmjs.org/package/css-column-count)
+
 
 ## File Size
 
+2.5K column-count.css
+1.7K column-count.min.css
 
 ## The Code
 ```
