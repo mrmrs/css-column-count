@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-column-count)
 ## File Size
 
 2.5K column-count.css
-1.7K column-count.min.css
+1.7K column-count.min.css 
+336B minified and gzipped
 
 ## The Code
 ```
