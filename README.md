@@ -20,7 +20,7 @@ View on [npm](https://www.npmjs.org/package/css-column-count)
 ## File Size
 
 2.5K column-count.css
-1.7K column-count.min.css 
+1.7K column-count.min.css
 336B minified and gzipped
 
 ## The Code
@@ -115,7 +115,7 @@ View on [npm](https://www.npmjs.org/package/css-column-count)
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2015 @mrmrs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
