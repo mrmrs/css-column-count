@@ -20,7 +20,7 @@
 .cc-16 {     column-count: 16; }
 .cc-auto {   column-count: auto; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .cc-1-s {      column-count: 1; }
   .cc-2-s {      column-count: 2; }
   .cc-3-s {      column-count: 3; }
@@ -40,7 +40,7 @@
   .cc-auto-s {   column-count: auto; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .cc-1-m {      column-count: 1; }
   .cc-2-m {      column-count: 2; }
   .cc-3-m {      column-count: 3; }
@@ -60,7 +60,7 @@
   .cc-auto-m {   column-count: auto; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .cc-1-l {      column-count: 1; }
   .cc-2-l {      column-count: 2; }
   .cc-3-l {      column-count: 3; }
