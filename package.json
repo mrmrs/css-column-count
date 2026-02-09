@@ -1,38 +1,44 @@
 {
   "name": "css-column-count",
-  "style": "column-count.css",
-  "version": "1.0.8",
-  "homepage": "http://github.com/mrmrs/css-column-count",
-  "description": "Css module of single purpose classes for column count",
+  "version": "2.0.0",
+  "description": "Functional CSS for column-count",
+  "style": "dist/column-count.css",
+  "main": "dist/column-count.css",
+  "exports": {
+    ".": "./dist/column-count.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "column-count"
+    "column-count",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-column-count": {
+  "homepage": "https://github.com/mrmrs/css-column-count",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-column-count.git"
+    "url": "https://github.com/mrmrs/css-column-count.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-column-count/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-column-count/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
